@@ -28,7 +28,7 @@ setuptools.setup(
     python_requires=">=3.6",
     install_requires=[
         "numpy",
-        "tqdm"
+        "tqdm=4.62.2"
         "logging"
     ]
 )

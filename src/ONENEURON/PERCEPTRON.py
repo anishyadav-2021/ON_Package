@@ -21,7 +21,7 @@ class Perceptron:
     X_with_bias = np.c_[self.X, -np.ones((len(self.X), 1))] # CONCATINATION
     logging.info(f"X with bias: \n{X_with_bias}")
 
-    for epoch in tqdm(range(self.epochs),total=self.epochs,desc="training the model"):
+    for epoch in tqdm(range(self.epochs), total=self.epochs, desc="training the model"):
       logging.info("--"*10)
       logging.info(f"for epoch: {epoch}")
       logging.info("--"*10)
@@ -43,3 +43,4 @@ class Perceptron:
     total_loss = np.sum(self.error)
     logging.info(f"total loss: {total_loss}")
     return total_loss
+    
