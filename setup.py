@@ -8,7 +8,7 @@ User_Name="anishyadav-2021"
 
 setuptools.setup(
     name=f"{Project_Name}-{User_Name}",
-    version="0.0.1",
+    version="0.0.2",
     author=User_Name,
     author_email="anishyadav1994@gmail.com",
     description="It is a Simple Neuron Implimentation",
